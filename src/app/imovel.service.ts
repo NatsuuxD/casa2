@@ -18,6 +18,7 @@ export class ImovelService {
       "estado": "São Paulo",
       "favorito": false,
       "tipo":"casa",
+      "valor": 200000.000,
       "adicionais": [
           {
               "chave":"Quartos disponíveis",
@@ -39,6 +40,7 @@ export class ImovelService {
       "estado": "São Paulo",
       "favorito": false,
       "tipo":"apartamento",
+      "valor": 200000.000,
       "adicionais": [
           {
               "chave":"Banheiro",
@@ -57,6 +59,7 @@ export class ImovelService {
       "estado": "São Paulo",
       "favorito": false,
       "tipo":"casa",
+      "valor": 200000.000,
       "adicionais": [
           {
               "chave":"Quartos disponíveis",
@@ -87,6 +90,7 @@ export class ImovelService {
       "estado": "São Paulo",
       "favorito": false,
       "tipo":"casa",
+      "valor": 200000.000,
       "adicionais":[],
       "aluguel":[]
   },
@@ -99,6 +103,7 @@ export class ImovelService {
       "estado": "São Paulo",
       "favorito": false,
       "tipo":"casa",
+      "valor": 200000.000,
       "adicionais":[],
       "aluguel":[]
   },
@@ -112,6 +117,7 @@ export class ImovelService {
       "estado": "São Paulo",
       "favorito": false,
       "tipo":"casa",
+      "valor": 200000.000,
       "adicionais":[],
       "aluguel":[]
   },
@@ -124,6 +130,7 @@ export class ImovelService {
       "estado": "Rio de Janeiro",
       "favorito": false,
       "tipo":"casa",
+      "valor": 200000.000,
       "adicionais":[],
       "aluguel":[]
   },
@@ -136,6 +143,7 @@ export class ImovelService {
       "estado": "São Paulo",
       "favorito": false,
       "tipo":"casa",
+      "valor": 200000.000,
       "adicionais":[],
       "aluguel":[]
   },
@@ -147,6 +155,7 @@ export class ImovelService {
       "estado": "São Paulo",
       "favorito": false,
       "tipo":"apartamento",
+      "valor": 200000.000,
       "adicionais":[],
       "aluguel":[]
   },
@@ -159,6 +168,7 @@ export class ImovelService {
       "estado": "São Paulo",
       "favorito": false,
       "tipo":"casa",
+      "valor": 200000.000,
       "adicionais":[],
       "aluguel":[
         {
