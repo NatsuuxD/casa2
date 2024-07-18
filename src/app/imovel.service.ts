@@ -27,7 +27,8 @@ export class ImovelService {
               "chave":"Piscina",
               "valor":"sim"
           }
-      ]
+      ],
+      "aluguel":[]
   },
 
   {
@@ -43,7 +44,8 @@ export class ImovelService {
               "chave":"Banheiro",
               "valor": 1
           }  
-      ]
+      ],
+      "aluguel":[]
 
   },
 
@@ -73,7 +75,8 @@ export class ImovelService {
               "valor":"Frutiferas"
           }
 
-      ]
+      ],
+      "aluguel":[]
   },
 
   {
@@ -84,7 +87,8 @@ export class ImovelService {
       "estado": "São Paulo",
       "favorito": false,
       "tipo":"casa",
-      "adicionais":[]
+      "adicionais":[],
+      "aluguel":[]
   },
 
   {
@@ -95,7 +99,8 @@ export class ImovelService {
       "estado": "São Paulo",
       "favorito": false,
       "tipo":"casa",
-      "adicionais":[]
+      "adicionais":[],
+      "aluguel":[]
   },
 
 
@@ -107,7 +112,8 @@ export class ImovelService {
       "estado": "São Paulo",
       "favorito": false,
       "tipo":"casa",
-      "adicionais":[]
+      "adicionais":[],
+      "aluguel":[]
   },
 
   {
@@ -118,7 +124,8 @@ export class ImovelService {
       "estado": "Rio de Janeiro",
       "favorito": false,
       "tipo":"casa",
-      "adicionais":[]
+      "adicionais":[],
+      "aluguel":[]
   },
 
   {
@@ -129,7 +136,8 @@ export class ImovelService {
       "estado": "São Paulo",
       "favorito": false,
       "tipo":"casa",
-      "adicionais":[]
+      "adicionais":[],
+      "aluguel":[]
   },
   {
       "id": 9,
@@ -139,7 +147,8 @@ export class ImovelService {
       "estado": "São Paulo",
       "favorito": false,
       "tipo":"apartamento",
-      "adicionais":[]
+      "adicionais":[],
+      "aluguel":[]
   },
 
   {
@@ -150,7 +159,25 @@ export class ImovelService {
       "estado": "São Paulo",
       "favorito": false,
       "tipo":"casa",
-      "adicionais":[]
+      "adicionais":[],
+      "aluguel":[
+        {
+            "chave": "Alguel mensal",
+            "valor":4500.00
+        },
+        {
+            "chave": "Alguel anual",
+            "valor":4500.00
+        },
+        {
+            "chave": "Alguel por 2 anos",
+            "valor":5000.00
+            
+        }
+
+        
+
+      ]
   },
 
 ] 
