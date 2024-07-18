@@ -30,6 +30,12 @@ article {
     font-size: 24pt;
     margin-bottom: 15px;
   }
+  .voltar {
+    width: 3%;
+    position:absolute;
+    top: 6%;
+    left: 14%;
+  }
   
   .listing-features>.section-heading {
     color: var(--secondary-color);

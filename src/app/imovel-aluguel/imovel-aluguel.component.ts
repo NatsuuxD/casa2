@@ -20,5 +20,9 @@ export class ImovelAluguelComponent {
     const id=this.route.snapshot.params["id"]
     this.imovel = this.imvService.buscaImovelPeloId(id)
   }
+  voltarDetalhes(){
+    const url = `/detalhes/${this.imovel?.id}`
+    this.rt.navigate([url])
+  }
   
 }
